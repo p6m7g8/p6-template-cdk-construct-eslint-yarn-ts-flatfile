@@ -13,15 +13,23 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4.2.2
+      - name: Install Node.js
+        run: |
+          curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
+          sudo apt-get install -y nodejs
+
+      - name: Install pnpm and dependencies
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
+          pnpm install
       - name: Cache NPM dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@v4.1.2
         with:
           path: node_modules
           key: ${{ runner.os }}-node-${{ hashFiles('pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      - name: Install dependencies
-        run: pnpm install
       - name: Run build
         run: pnpm run ci:gha
       - name: Run Package
