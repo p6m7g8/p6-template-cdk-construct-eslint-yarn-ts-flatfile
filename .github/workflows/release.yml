@@ -192,7 +192,7 @@ jobs:
         run: |
           git config --global user.name "$GIT_USER_NAME"
           git config --global user.email "$GIT_USER_EMAIL"
-          git remote set-url origin "https://$GH_TOKEN@github.com/p6m7g8/p6-template-cdk-construct-eslint-npm-ts-flatfile.git"
+          git remote set-url origin "https://$GH_TOKEN@github.com/$GITHUB_REPOSITORY.git"
           npm run publish:golang
   release_maven:
     name: Release to Maven
