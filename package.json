@@ -116,7 +116,7 @@
         "packageId": "P6m7g8.P6CDKStack"
       },
       "go": {
-        "moduleName": "github.com/p6m7g8/p6-cdk-stack"
+        "moduleName": "github.com/p6m7g8/p6-template-cdk-construct-eslint-npm-ts-flatfile"
       }
     }
   },
