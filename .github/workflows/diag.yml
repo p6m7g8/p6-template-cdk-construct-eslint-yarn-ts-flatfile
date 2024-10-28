@@ -30,6 +30,8 @@ jobs:
           echo "=========> bash"
           bash --version
           echo "=========> node"
+          sudo corepack enable
+          sudo corepack prepare pnpm@latest --activate
           node -v
           pnpm --version
           npm --version
