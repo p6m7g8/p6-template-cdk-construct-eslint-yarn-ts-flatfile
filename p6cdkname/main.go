@@ -9,16 +9,16 @@ import (
 
 func init() {
 	_jsii_.RegisterInterface(
-		"p6-cdk-name.IP6Props",
-		reflect.TypeOf((*IP6Props)(nil)).Elem(),
+		"p6-cdk-name.IP6CDKNameProps",
+		reflect.TypeOf((*IP6CDKNameProps)(nil)).Elem(),
 		nil, // no members
 		func() interface{} {
-			return &jsiiProxy_IP6Props{}
+			return &jsiiProxy_IP6CDKNameProps{}
 		},
 	)
 	_jsii_.RegisterClass(
-		"p6-cdk-name.P6Stack",
-		reflect.TypeOf((*P6Stack)(nil)).Elem(),
+		"p6-cdk-name.P6CDKName",
+		reflect.TypeOf((*P6CDKName)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "applyRemovalPolicy", GoMethod: "ApplyRemovalPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "env", GoGetter: "Env"},
@@ -31,7 +31,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_P6Stack{}
+			j := jsiiProxy_P6CDKName{}
 			_jsii_.InitJsiiProxy(&j.Type__awscdkResource)
 			return &j
 		},

@@ -1,6 +1,6 @@
 DESC
 
-# P6Stack
+# P6CDKName
 
 ## LICENSE
 
@@ -14,9 +14,9 @@ DESC
 
 ```go
 ...
-import { P6Stack } from 'p6-cdk-stack';
+import { P6CDKName } from 'p6-cdk-name';
 
-new P6Stack(this, 'P6Stack', {
+new P6CDKName(this, 'P6CDKName', {
 });
 ```
 
