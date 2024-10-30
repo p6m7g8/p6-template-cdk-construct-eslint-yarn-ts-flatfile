@@ -1,1 +1,1 @@
-export * from './stack'
+export * from './p6cdkname'
