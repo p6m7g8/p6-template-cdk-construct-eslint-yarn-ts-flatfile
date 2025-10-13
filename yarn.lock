@@ -192,7 +192,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/client-codeartifact@npm:^3.901.0":
+"@aws-sdk/client-codeartifact@npm:^3.908.0":
   version: 3.908.0
   resolution: "@aws-sdk/client-codeartifact@npm:3.908.0"
   dependencies:
@@ -484,7 +484,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/credential-providers@npm:^3.901.0":
+"@aws-sdk/credential-providers@npm:^3.908.0":
   version: 3.908.0
   resolution: "@aws-sdk/credential-providers@npm:3.908.0"
   dependencies:
@@ -7265,9 +7265,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsii-docgen@npm:^10.10.0":
-  version: 10.10.0
-  resolution: "jsii-docgen@npm:10.10.0"
+"jsii-docgen@npm:^10.10.1":
+  version: 10.10.1
+  resolution: "jsii-docgen@npm:10.10.1"
   dependencies:
     "@jsii/spec": "npm:^1.115.0"
     case: "npm:^1.6.3"
@@ -7276,13 +7276,13 @@ __metadata:
     glob-promise: "npm:^6.0.7"
     jsii-reflect: "npm:^1.115.0"
     json-stream-stringify: "npm:^3.1.6"
-    semver: "npm:^7.7.2"
+    semver: "npm:^7.7.3"
     yargs: "npm:^16.2.0"
   peerDependencies:
     jsii-rosetta: ^1.85.0 || ~5.0.14 || ~5.1.2 || ~5.2.0 || ~5.3.0 || ~5.4.0 || ~5.5.0 || ~5.6.0 || ~5.7.0 || ~5.8.0 || ~5.9.1
   bin:
     jsii-docgen: bin/jsii-docgen
-  checksum: 10c0/9e724bff5623f27910971825f92221f709a34b2fc71df1b92db78b9dc66fa08f9d1a8e7e4792e31b8c7307842db331fb7ba25a71d9711dd4d8394dca87b615fe
+  checksum: 10c0/730097418cf6da47cac240393e005831e296fad303490b5c5d4759c7588bc4d9d52be0fc6a6ee872145ccc7ccb404d111c9abb7b99d2e621b748b84f93190cc4
   languageName: node
   linkType: hard
 
@@ -8781,10 +8781,10 @@ __metadata:
     jest: "npm:^30.2.0"
     jsii: "npm:^5.9.8"
     jsii-diff: "npm:^1.115.0"
-    jsii-docgen: "npm:^10.10.0"
+    jsii-docgen: "npm:^10.10.1"
     jsii-pacmak: "npm:^1.115.0"
     jsii-rosetta: "npm:^5.9.8"
-    publib: "npm:^0.2.1023"
+    publib: "npm:^0.2.1024"
     ts-jest: "npm:^29.4.5"
     ts-node: "npm:^10.9.2"
     typescript: "npm:^5.9.3"
@@ -9062,12 +9062,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"publib@npm:^0.2.1023":
-  version: 0.2.1023
-  resolution: "publib@npm:0.2.1023"
+"publib@npm:^0.2.1024":
+  version: 0.2.1024
+  resolution: "publib@npm:0.2.1024"
   dependencies:
-    "@aws-sdk/client-codeartifact": "npm:^3.901.0"
-    "@aws-sdk/credential-providers": "npm:^3.901.0"
+    "@aws-sdk/client-codeartifact": "npm:^3.908.0"
+    "@aws-sdk/credential-providers": "npm:^3.908.0"
     "@aws-sdk/types": "npm:^3.901.0"
     "@types/fs-extra": "npm:^8.0.0"
     fs-extra: "npm:^8.0.0"
@@ -9092,7 +9092,7 @@ __metadata:
     publib-npm: bin/publib-npm
     publib-nuget: bin/publib-nuget
     publib-pypi: bin/publib-pypi
-  checksum: 10c0/6b08349b946f9413adfa6b7b3699e2cd35cc2f37fb8334944f6ed90d3251e1fa3f86e5dd023f03a63e807256c24550e06cf6c3e7f4826d07cba20a5e7b238f2c
+  checksum: 10c0/637d79e9e12cb6532c52861d5cde2966e3e24a2bafcf1da67745124f3a9a1db2125d716c05e405c7ed9e83f438380fead3d051bb797451c6da0198a02fcfc541
   languageName: node
   linkType: hard
 
